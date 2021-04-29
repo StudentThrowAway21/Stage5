@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesQ.css">
+    <title>Τελος</title>
+</head>
+<body>
+    <div class="containerQ">
+        <div id="end" class="flex-center flex-column">
+            <h style="color: azure;font-size: 5.4rem;" id="finalScore">0</h>
+            <form class="end-form-container">
+                <h style="color: azure;font-size: 5.4rem;" id="end-text">Γράψε το όνομά σου</h>
+                <input type="text" name="name" id="usernameQ" placeholder="Όνομα">
+                <button class="btnQ" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="game.html" class="btnQ">Παίξε Ξανά</a>
+            <a href="quiz.html" class="btnQ">Πήγαινε πίσω</a>
+       
+        </div>
+
+    </div>
+    <script src="endgame.js"></script>
+</body>
+</html>

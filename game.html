@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <title>Quiz</title>
+        <meta name="viewport" content="width=device-width">       
+        <link rel="stylesheet" href="stylesQ.css"> 
+        <link rel="stylesheet" href="game.css">  
+    </head>
+    <body>
+        <div class="containerQ">
+            <div id="game" class="justify-center flex-column">
+                <div id="hud">
+                    <div class="hud-item">
+                        <p id="progressText" class="hud-prefix">
+                            Ερώτηση
+                        </p>
+                        <div id ="progressBar">
+                            <div id="progressBarFull"></div>
+                        </div>
+                    </div>
+                    <div class="hud-item">
+                        <p class="hud-prefix">
+                            Σκορ
+                        </p>
+                        <h id="score" style="color: azure;font-size: 5.4rem;">0</h>
+                    </div>
+                </div>
+                <h1 id="question" style="font-size: 5rem;">Ποια είναι η σωστή απάντηση?</h1>
+                <div class="choice-container">
+                    <p class="choice-prefix">Α</p>
+                    <p class="choice-text" data-number="1">Επιλογή 1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">Β</p>
+                    <p class="choice-text" data-number="2">Επιλογή 2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">Γ</p>
+                    <p class="choice-text" data-number="3">Επιλογή 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">Δ</p>
+                    <p class="choice-text" data-number="4">Επιλογή 4</p>
+                </div>
+
+            </div>
+        </div>
+        <script src="game.js">
+
+        </script>
+
+    </body>
+</html>
